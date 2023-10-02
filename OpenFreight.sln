@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "open-freight", "OpenFreight.Api\open-freight.csproj", "{C7546F0C-7046-47CE-B032-3049C09341E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFreight.Shipments", "OpenFreight.Shipments\OpenFreight.Shipments.csproj", "{E66BFD53-D11C-4B10-BACB-CCF718B5D1F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFreight.Orders", "OpenFreight.Orders\OpenFreight.Orders.csproj", "{95C7E39B-51B6-4C52-825F-83AC72DBFB49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFreight.Analytics", "OpenFreight.Analytics\OpenFreight.Analytics.csproj", "{5004A8A5-3B77-4796-A7C7-0D8FB847629A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFreight.Financials", "OpenFreight.Financials\OpenFreight.Financials.csproj", "{E3E12A10-7900-4973-BF59-5BD3D047CDA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFreight.Locations", "OpenFreight.Locations\OpenFreight.Locations.csproj", "{C636D289-272F-4615-BEEE-5397D3C30E65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFreight.Tracking", "OpenFreight.Tracking\OpenFreight.Tracking.csproj", "{E720367B-CABF-4C38-834E-A4536EBE60EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7546F0C-7046-47CE-B032-3049C09341E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7546F0C-7046-47CE-B032-3049C09341E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7546F0C-7046-47CE-B032-3049C09341E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7546F0C-7046-47CE-B032-3049C09341E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E66BFD53-D11C-4B10-BACB-CCF718B5D1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E66BFD53-D11C-4B10-BACB-CCF718B5D1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E66BFD53-D11C-4B10-BACB-CCF718B5D1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E66BFD53-D11C-4B10-BACB-CCF718B5D1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C7E39B-51B6-4C52-825F-83AC72DBFB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C7E39B-51B6-4C52-825F-83AC72DBFB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C7E39B-51B6-4C52-825F-83AC72DBFB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C7E39B-51B6-4C52-825F-83AC72DBFB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5004A8A5-3B77-4796-A7C7-0D8FB847629A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5004A8A5-3B77-4796-A7C7-0D8FB847629A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5004A8A5-3B77-4796-A7C7-0D8FB847629A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5004A8A5-3B77-4796-A7C7-0D8FB847629A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E12A10-7900-4973-BF59-5BD3D047CDA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E12A10-7900-4973-BF59-5BD3D047CDA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E12A10-7900-4973-BF59-5BD3D047CDA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E12A10-7900-4973-BF59-5BD3D047CDA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C636D289-272F-4615-BEEE-5397D3C30E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C636D289-272F-4615-BEEE-5397D3C30E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C636D289-272F-4615-BEEE-5397D3C30E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C636D289-272F-4615-BEEE-5397D3C30E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E720367B-CABF-4C38-834E-A4536EBE60EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E720367B-CABF-4C38-834E-A4536EBE60EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E720367B-CABF-4C38-834E-A4536EBE60EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E720367B-CABF-4C38-834E-A4536EBE60EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
