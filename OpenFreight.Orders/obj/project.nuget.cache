@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mjh3DahArGb6vSqFB9HRjN+5nzn/CucbYItSLPUiu1jX79cQ5LbKWP41EGEBrbluRn8xXaUx/ju5tbidcQJTMA==",
+  "dgSpecHash": "RO9lCkAYtVC+diBzPix+s9XITN7stykTiXa+arjsUJPRVRHY7JuPrVu0vXel4+vr7di3afVDOn068w3vbTWqvg==",
   "success": true,
-  "projectFilePath": "/Users/christopherschoeder/open-freight/OpenFreight.Orders/OpenFreight.Orders.csproj",
+  "projectFilePath": "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Orders\\OpenFreight.Orders.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

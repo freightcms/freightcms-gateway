@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/christopherschoeder/.nuget/packages/": {}
+    "C:\\Users\\squishedfox\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/christopherschoeder/open-freight/OpenFreight.Orders/OpenFreight.Orders.csproj",
+      "projectUniqueName": "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Orders\\OpenFreight.Orders.csproj",
       "projectName": "OpenFreight.Orders",
-      "projectPath": "/Users/christopherschoeder/open-freight/OpenFreight.Orders/OpenFreight.Orders.csproj",
-      "packagesPath": "/Users/christopherschoeder/.nuget/packages/",
-      "outputPath": "/Users/christopherschoeder/open-freight/OpenFreight.Orders/obj/",
+      "projectPath": "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Orders\\OpenFreight.Orders.csproj",
+      "packagesPath": "C:\\Users\\squishedfox\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Orders\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/christopherschoeder/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\squishedfox\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

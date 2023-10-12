@@ -2,7 +2,19 @@
 
 ## Summary
 
-The Carriers package is design for providing a database models and entity context using Entity Framework.
+The Carriers package is design for providing a database models and entity context using Entity Framework. 
+
+## Get Started
+
+Install the package
+
+`dotnet add package OpenFreight.Carriers`
+
+Use the database in your application startup
+
+```cs
+
+```
 
 ## See Also
 
