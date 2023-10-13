@@ -12,7 +12,7 @@ namespace OpenFreight.Carriers
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("your_connection_string_here");
+            optionsBuilder.UseInMemoryDatabase("CarrierDb"); // TODO: need to move this to use the actual database
         }
     }
 }
