@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFreight.Documents", "Op
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFreight.Carriers.Models", "OpenFreight.Carriers.Models\OpenFreight.Carriers.Models.csproj", "{07267D7F-E00C-459B-B4DE-94D521AF2213}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFreight.Carriers.Data.Abstract", "OpenFreight.Carriers.Data.Abstract\OpenFreight.Carriers.Data.Abstract.csproj", "{F1138B87-76CE-4FD0-83D3-217D9B405B00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFreight.Carriers.Data.Context", "OpenFreight.Carriers.Data.Context\OpenFreight.Carriers.Data.Context.csproj", "{0FE630B9-A5CA-4E29-B3B7-C78B9A982721}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,9 +72,9 @@ Global
 		{D3ADABDC-73BA-4AF3-8C27-969239299B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3ADABDC-73BA-4AF3-8C27-969239299B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3ADABDC-73BA-4AF3-8C27-969239299B80}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F1138B87-76CE-4FD0-83D3-217D9B405B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1138B87-76CE-4FD0-83D3-217D9B405B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1138B87-76CE-4FD0-83D3-217D9B405B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1138B87-76CE-4FD0-83D3-217D9B405B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE630B9-A5CA-4E29-B3B7-C78B9A982721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE630B9-A5CA-4E29-B3B7-C78B9A982721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE630B9-A5CA-4E29-B3B7-C78B9A982721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE630B9-A5CA-4E29-B3B7-C78B9A982721}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
