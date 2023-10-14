@@ -1,4 +1,3 @@
-using System.Data.SqlTypes;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -17,9 +16,9 @@ namespace OpenFreight.Carriers.Models
         public required string InsuranceType { get; set; }
         
         [Required]
-        public SqlMoney InsuranceAmount { get; set; }
+        public decimal InsuranceAmount { get; set; }
 
-        public SqlMoney InsuranceDeductible { get; set; }
+        public decimal InsuranceDeductible { get; set; }
         
         [StringLength(250)]
         public required string InsuranceNotes { get; set; }

@@ -1,36 +1,26 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.InMemory;
 using OpenFreight.Carriers;
+using EntityGraphQL.AspNet;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<CarrierDbContext>((options) => 
+    options.UseInMemoryDatabase("Carriers"), ServiceLifetime.Transient);
+
+// This registers a SchemaProvider<DemoContext> and uses reflection to build the schema with default options
+builder.Services.AddGraphQLSchema<CarrierDbContext>();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (!app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-    builder.Services.AddDbContext<CarrierDbContext>((options) => 
-        options.UseInMemoryDatabase("Carriers"), ServiceLifetime.Transient);
-}
-else 
-{
-    builder.Services.AddDbContext<CarrierDbContext>((options) => 
-        options.UseSqlServer(builder.Configuration.GetConnectionString("Carriers")), ServiceLifetime.Transient);
+    app.UseHttpsRedirection();
 }
 
-app.UseHttpsRedirection();
+app.MapGraphQL<CarrierDbContext>("/graphql");
 
-app.UseAuthorization();
-
-app.MapControllers();
-
+// app.UseAuthorization();
 app.Run();
