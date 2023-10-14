@@ -6,12 +6,12 @@ namespace OpenFreight.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class WeatherForecastController : ControllerBase
+public class CarrierController : ControllerBase
 {
-    private readonly ILogger<WeatherForecastController> _logger;
+    private readonly ILogger<CarrierController> _logger;
     private readonly CarrierDbContext _carrierDbContext;
 
-    public WeatherForecastController(ILogger<WeatherForecastController> logger,
+    public CarrierController(ILogger<CarrierController> logger,
         CarrierDbContext carrierDbContext)
     {
         _logger = logger;
