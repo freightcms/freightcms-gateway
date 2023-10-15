@@ -10,8 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<CarrierDbContext>((options) => 
     options.UseInMemoryDatabase("Carriers"), ServiceLifetime.Transient);
 builder.Services.AddScoped<CarrierQuery>();
-builder.Services.AddScoped<CarrierMutation>();
 builder.Services.AddScoped<CarrierType>();
+builder.Services.AddScoped<CarrierMutation>();
+builder.Services.AddScoped<CreateCarrerInputType>();
 builder.Services.AddGraphQL(configure => 
 {
     configure.AddSchema<CarrierSchema>(GraphQL.DI.ServiceLifetime.Scoped).AddSystemTextJson();
