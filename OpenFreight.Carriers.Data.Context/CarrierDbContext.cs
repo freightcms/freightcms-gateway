@@ -14,6 +14,11 @@ namespace OpenFreight.Carriers.Data.Context
         public DbSet<CarrierIdentifyingCode> IdentifyingCodes { get; set; }
         public DbSet<CarrierInsuranceModel> CarrierInsurance { get; set; }
 
+        public CarrierDbContext(DbContextOptions<CarrierDbContext> options) : base(options)
+        {
+            
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
