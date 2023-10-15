@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Documents\\OpenFreight.Documents.csproj": {}
+    "/Users/christopherschoeder/open-freight-api-1/OpenFreight.Documents/OpenFreight.Documents.csproj": {}
   },
   "projects": {
-    "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Documents\\OpenFreight.Documents.csproj": {
+    "/Users/christopherschoeder/open-freight-api-1/OpenFreight.Documents/OpenFreight.Documents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Documents\\OpenFreight.Documents.csproj",
+        "projectUniqueName": "/Users/christopherschoeder/open-freight-api-1/OpenFreight.Documents/OpenFreight.Documents.csproj",
         "projectName": "OpenFreight.Documents",
-        "projectPath": "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Documents\\OpenFreight.Documents.csproj",
-        "packagesPath": "C:\\Users\\squishedfox\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Documents\\obj\\",
+        "projectPath": "/Users/christopherschoeder/open-freight-api-1/OpenFreight.Documents/OpenFreight.Documents.csproj",
+        "packagesPath": "/Users/christopherschoeder/.nuget/packages/",
+        "outputPath": "/Users/christopherschoeder/open-freight-api-1/OpenFreight.Documents/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\squishedfox\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/christopherschoeder/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using OpenFreight.Carriers;
-using EntityGraphQL.AspNet;
+using GraphQL;
+using OpenFreight.Api.Carriers;
+using OpenFreight.Carriers.Data.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,9 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<CarrierDbContext>((options) => 
     options.UseInMemoryDatabase("Carriers"), ServiceLifetime.Transient);
-
-// This registers a SchemaProvider<DemoContext> and uses reflection to build the schema with default options
-builder.Services.AddGraphQLSchema<CarrierDbContext>();
+builder.Services.AddGraphQL(configure => 
+{
+    configure.AddAutoSchema<CarrierSchema>().AddSystemTextJson();
+});
 
 var app = builder.Build();
 
@@ -19,8 +21,18 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseHttpsRedirection();
 }
-
-app.MapGraphQL<CarrierDbContext>("/graphql");
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+app.UseGraphQL("/graphql");            // url to host GraphQL endpoint
+app.UseGraphQLPlayground(
+    "/",                               // url to host Playground at
+    new GraphQL.Server.Ui.Playground.PlaygroundOptions
+    {
+        GraphQLEndPoint = "/graphql",         // url of GraphQL endpoint
+        SubscriptionsEndPoint = "/graphql",   // url of GraphQL endpoint
+    });
 
 // app.UseAuthorization();
 app.Run();

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "brHof7gbOIJSDSphJM0XZ/FvVPgulya0idKFE5zxxG1iyyBzUt5urLIBM5tzSOwLxAsNEIo9ZVfTbd2KaU2q0Q==",
+  "dgSpecHash": "TDN2p2kS9y7rtb9c07up3i/vNTMt2CvUWTM76qwDLuhUdrElmhhOM5tZhofjfzLsHsHsVV7nOWHzFQG4YPyWIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Locations\\OpenFreight.Locations.csproj",
+  "projectFilePath": "/Users/christopherschoeder/open-freight-api-1/OpenFreight.Locations/OpenFreight.Locations.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

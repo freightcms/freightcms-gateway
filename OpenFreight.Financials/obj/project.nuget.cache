@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B6vG333GlKwo1VQMrkFKtYUKLK3WGZs8qR3x430rwFXioid42PH+AWsJcYcaD2ovNkYV8PGHiyKIscPnkNHqiA==",
+  "dgSpecHash": "ujhNo68u0+EIeEb7A7WZgyWKvAwrJQjfdu0KlR1blzLNPMKxQ07M1+K8wji/v7d1cGCV/RhGi7mGYA9WU1zbOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Financials\\OpenFreight.Financials.csproj",
+  "projectFilePath": "/Users/christopherschoeder/open-freight-api-1/OpenFreight.Financials/OpenFreight.Financials.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

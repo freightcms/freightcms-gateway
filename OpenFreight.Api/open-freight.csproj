@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EntityGraphQL.AspNet" Version="5.0.1" />
+    <PackageReference Include="GraphQL.Server.All" Version="7.6.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.12">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
