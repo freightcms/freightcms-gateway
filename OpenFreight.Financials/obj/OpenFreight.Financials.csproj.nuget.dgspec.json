@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Financials\\OpenFreight.Financials.csproj": {}
+    "/Users/christopherschoeder/open-freight-api-1/OpenFreight.Financials/OpenFreight.Financials.csproj": {}
   },
   "projects": {
-    "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Financials\\OpenFreight.Financials.csproj": {
+    "/Users/christopherschoeder/open-freight-api-1/OpenFreight.Financials/OpenFreight.Financials.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Financials\\OpenFreight.Financials.csproj",
+        "projectUniqueName": "/Users/christopherschoeder/open-freight-api-1/OpenFreight.Financials/OpenFreight.Financials.csproj",
         "projectName": "OpenFreight.Financials",
-        "projectPath": "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Financials\\OpenFreight.Financials.csproj",
-        "packagesPath": "C:\\Users\\squishedfox\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\squishedfox\\source\\open-freight-api\\OpenFreight.Financials\\obj\\",
+        "projectPath": "/Users/christopherschoeder/open-freight-api-1/OpenFreight.Financials/OpenFreight.Financials.csproj",
+        "packagesPath": "/Users/christopherschoeder/.nuget/packages/",
+        "outputPath": "/Users/christopherschoeder/open-freight-api-1/OpenFreight.Financials/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\squishedfox\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/christopherschoeder/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }

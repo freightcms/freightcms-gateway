@@ -1,14 +1,15 @@
+using GraphQL;
 using GraphQL.Types;
 using OpenFreight.Carriers.Models;
 
 namespace OpenFreight.Api.Carriers
 {
-    public class CreateCarrerInputType : InputObjectGraphType
+    public class CreateCarrierInputType : InputObjectGraphType<CarrierModel>
     {
-        public CreateCarrerInputType()
+        public CreateCarrierInputType()
         {
             Name = "CreateCarrierInput";
-            Field<NonNullGraphType<StringGraphType>>("carrierName");
+            Field(x => x.Name).Description("Name of the Carrier").Name("carrierName");
         }
     }
 
@@ -17,7 +18,7 @@ namespace OpenFreight.Api.Carriers
         public CarrierType()
         {
             Field(x => x.ID).Description("ID of the Carrier").Name("id");
-            Field(x => x.Name).Description("Name of the Carrier").Name("name");
+            Field(x => x.Name).Description("Name of the Carrier").Name("carrierName");
         }
     } 
 }
