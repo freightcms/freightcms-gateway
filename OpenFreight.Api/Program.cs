@@ -10,12 +10,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<CarrierQuery>();
 builder.Services.AddScoped<CarrierType>();
+builder.Services.AddScoped<CarrierInsuranceType>();
 builder.Services.AddScoped<CarrierMutation>();
 builder.Services.AddScoped<CreateCarrierInputType>();
+
 builder.Services.AddGraphQL(configure => 
 {
     configure.AddSchema<CarrierSchema>(GraphQL.DI.ServiceLifetime.Scoped).AddSystemTextJson();
 });
+builder.Services.AddDbContext<CarrierDbContext>((options) => 
+    options.UseInMemoryDatabase("Carriers"), ServiceLifetime.Transient);
 
 var app = builder.Build();
 
@@ -27,8 +31,6 @@ if (!app.Environment.IsDevelopment())
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
-    builder.Services.AddDbContext<CarrierDbContext>((options) => 
-        options.UseInMemoryDatabase("Carriers"), ServiceLifetime.Transient);
 }
 app.UseGraphQL("/graphql");            // url to host GraphQL endpoint
 app.UseGraphQLPlayground(
