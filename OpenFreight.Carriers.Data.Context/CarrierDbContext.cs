@@ -1,4 +1,3 @@
-using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 using OpenFreight.Carriers.Models;
 
@@ -39,6 +38,7 @@ namespace OpenFreight.Carriers.Data.Context
                 config.HasMany(x => x.Contacts).WithOne(x => x.Carrier).HasForeignKey(x => x.CarrierID);
                 config.HasMany(x => x.Insurance).WithOne(x => x.Carrier).HasForeignKey(x => x.CarrierID);
                 config.ToTable("Carriers", "carriers");
+                config.HasIndex(x => x.Name).IsUnique();
             });
 
             modelBuilder.Entity<CarrierContactModel>(config => {

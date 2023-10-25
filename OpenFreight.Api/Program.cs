@@ -7,8 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddDbContext<CarrierDbContext>((options) => 
-    options.UseInMemoryDatabase("Carriers"), ServiceLifetime.Transient);
+
 builder.Services.AddScoped<CarrierQuery>();
 builder.Services.AddScoped<CarrierType>();
 builder.Services.AddScoped<CarrierMutation>();
@@ -28,6 +27,8 @@ if (!app.Environment.IsDevelopment())
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
+    builder.Services.AddDbContext<CarrierDbContext>((options) => 
+        options.UseInMemoryDatabase("Carriers"), ServiceLifetime.Transient);
 }
 app.UseGraphQL("/graphql");            // url to host GraphQL endpoint
 app.UseGraphQLPlayground(
