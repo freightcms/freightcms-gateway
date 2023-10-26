@@ -34,9 +34,9 @@ namespace OpenFreight.Carriers.Data.Context
                 config.Property(x => x.IsActive)
                     .HasDefaultValue(false);
                 
-                config.HasMany(x => x.IdentifyingCodes).WithOne(x => x.Carrier).HasForeignKey(x => x.CarrierID);
-                config.HasMany(x => x.Contacts).WithOne(x => x.Carrier).HasForeignKey(x => x.CarrierID);
-                config.HasMany(x => x.Insurance).WithOne(x => x.Carrier).HasForeignKey(x => x.CarrierID);
+                config.HasMany(x => x.IdentifyingCodes).WithOne(x => x.Carrier).HasForeignKey(x => x.CarrierID).OnDelete(DeleteBehavior.Cascade);
+                config.HasMany(x => x.Contacts).WithOne(x => x.Carrier).HasForeignKey(x => x.CarrierID).OnDelete(DeleteBehavior.Cascade);
+                config.HasMany(x => x.Insurance).WithOne(x => x.Carrier).HasForeignKey(x => x.CarrierID).OnDelete(DeleteBehavior.Cascade);
                 config.ToTable("Carriers", "carriers");
                 config.HasIndex(x => x.Name).IsUnique();
             });
@@ -49,7 +49,7 @@ namespace OpenFreight.Carriers.Data.Context
                 config.Property(x => x.CarrierID)
                     .HasColumnName("CarrierID")
                     .IsRequired();
-                config.Property(x => x.Name)
+                config.Property(x => x.FullName)
                     .HasColumnName("Name")
                     .IsRequired()
                     .HasMaxLength(100);
