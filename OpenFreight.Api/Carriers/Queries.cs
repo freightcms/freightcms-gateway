@@ -84,7 +84,7 @@ public class CarrierQuery : ObjectGraphType
                 }
 
                 context.Arguments.TryGetValue("id", out ArgumentValue idArgument);
-                context.Arguments.TryGetValue("id", out ArgumentValue nameArgument);
+                context.Arguments.TryGetValue("name", out ArgumentValue nameArgument);
 
                 var carrierDbContext = context.RequestServices.GetRequiredService<CarrierDbContext>();
                 IQueryable<CarrierModel> carriers = carrierDbContext.Carriers;
