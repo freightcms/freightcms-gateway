@@ -1,0 +1,18 @@
+{
+  "name": "open-freight-documents",
+  "version": "1.0.0",
+  "description": "Domain to provide structure for database models, APIs, service, etc. for managing Document related information such as invoices, vouchers, Bill of Lading, Master Bill of Lading, Packaging List, Labels, Customs Documents, etc.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/squishedfox/open-freight/documents"
+  },
+  "keywords": [
+    "logistics"
+  ],
+  "author": "Christopher Schoeder",
+  "license": "ISC"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "open-freight-financials",
+  "version": "1.0.0",
+  "description": "Domain to provide structure for database models, APIs, service, etc. for managing financials for a logistics company.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/squishedfox/open-freight-api/financials"
+  },
+  "keywords": [
+    "logistics"
+  ],
+  "author": "Christopher Schoeder",
+  "license": "ISC"
+}

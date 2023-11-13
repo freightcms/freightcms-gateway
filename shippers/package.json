@@ -1,0 +1,18 @@
+{
+  "name": "open-freight-shippers",
+  "version": "1.0.0",
+  "description": "Domain to provide structure for database models, APIs, service, etc. for users who are specific to be Shippers",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/squishedfox/open-freight-api/shippers"
+  },
+  "keywords": [
+    "logistics"
+  ],
+  "author": "Christopher Schoeder",
+  "license": "ISC"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "open-freight-brokers",
+  "version": "1.0.0",
+  "description": "Provides domain structure for database models, api, and services to manage brokers",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/squishedfox/open-freight-api/brokers"
+  },
+  "keywords": [
+    "logistics"
+  ],
+  "author": "christopher schoeder",
+  "license": "ISC"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "open-freight-tracking",
+  "version": "1.0.0",
+  "description": "Domain to provide structure for database models, APIs, service, etc. for location information geared towards orders and shipments",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/squishedfox/open-freight-api/tracking"
+  },
+  "keywords": [
+    "logistics"
+  ],
+  "author": "Christopher Schoeder",
+  "license": "ISC"
+}

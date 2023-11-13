@@ -1,0 +1,18 @@
+{
+  "name": "open-freight-locationss",
+  "version": "1.0.0",
+  "description": "Domain to provide structure for database models, APIs, service, etc. for managing location data such as address, roll up addresses, virtual addresses, mailing address, billing addresses, facilities, etc.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/squishedfox/open-freight-api/locations"
+  },
+  "keywords": [
+    "logistics"
+  ],
+  "author": "Christopher Schoeder",
+  "license": "ISC"
+}
