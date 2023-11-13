@@ -1,0 +1,18 @@
+{
+  "name": "open-freight-analaytics",
+  "version": "1.0.0",
+  "description": "API for providing self hosting solutions for reporting and analytics for shipments, orders, milestones, driverlogs, carrier score cards, rating and quoting, carrier acceptance, on time deliveries, etc.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/squishedfox/open-freight-api/analytics"
+  },
+  "keywords": [
+    "logistics"
+  ],
+  "author": "christopher schoeder",
+  "license": "ISC"
+}
